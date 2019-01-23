@@ -13,7 +13,7 @@ function exactMatch(drivers, attribute) {
   attributeType = Object.keys(attribute);
   attributeValue = attribute[attributeType];
 
-  return drivers.filter(function (driver) {return driver[attributeType] === attributeValue];});
+  return drivers.filter(function (driver) {return driver[attributeType] === attributeValue;});
 
 }
 
