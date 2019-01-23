@@ -9,9 +9,9 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   return matchedDrivers.map(driver => driver.name)
 }
 
-function exactMatch(drivers, attribute) {
+function exactMatch(drivers, attributez) {
 
-  matchedDrivers = drivers.filter(function(driver) {return (driver[0] == attribute || driver[1] == attribute);});
+  matchedDrivers = drivers.filter(function(driver) {return (driver[0] == attributez || driver[1] == attributez);});
 
   return matchedDrivers;
 
