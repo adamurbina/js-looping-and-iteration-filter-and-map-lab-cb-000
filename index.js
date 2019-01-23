@@ -13,7 +13,8 @@ function exactMatch(drivers, attribute) {
 
   matchedDrivers = drivers.filter(function(driver) {return driver == attribute})
 
-  console.log(matchedDrivers)
+
+console.log(matchedDrivers)
 
 }
 
