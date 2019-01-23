@@ -22,3 +22,7 @@ function exactMatchToList(drivers, attribute) {
 
   return matchedDrivers.map(driver => driver.name);
 }
+
+function returnNames(drivers){
+  return drivers.map(driver => driver.name);
+}
